@@ -17,7 +17,7 @@ public class ObjectSpawner : MonoBehaviour
 
     int spawnIndex;
 
-
+    //Nothing
 
     private void Start()
     {
