@@ -23,7 +23,7 @@ public class TestScript
         Assert.AreEqual(player.goalPos, _expectedGoalPos);
     }
 
-
+    //test
 
     [Test]
     public static IEnumerator Move_Right_On_X()
