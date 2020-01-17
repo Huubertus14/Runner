@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<test-run id="2" testcasecount="2" result="Passed" total="2" passed="2" failed="0" inconclusive="0" skipped="0" asserts="0" engine-version="3.5.0.0" clr-version="4.0.30319.42000" start-time="2020-01-17 11:42:12Z" end-time="2020-01-17 11:42:12Z" duration="0.1879515">
+  <test-suite type="TestSuite" id="1000" name="Runner" fullname="Runner" runstate="Runnable" testcasecount="2" result="Passed" start-time="2020-01-17 11:42:12Z" end-time="2020-01-17 11:42:12Z" duration="0.187952" total="2" passed="2" failed="0" inconclusive="0" skipped="0" asserts="0">
+    <properties />
+    <test-suite type="Assembly" id="1004" name="Assembly-CSharp-Editor.dll" fullname="C:/Users/huub_/CSchool/runner/Runner/Library/ScriptAssemblies/Assembly-CSharp-Editor.dll" runstate="Runnable" testcasecount="2" result="Passed" start-time="2020-01-17 11:42:12Z" end-time="2020-01-17 11:42:12Z" duration="0.098327" total="2" passed="2" failed="0" inconclusive="0" skipped="0" asserts="0">
+      <properties>
+        <property name="_PID" value="17068" />
+        <property name="_APPDOMAIN" value="Unity Child Domain" />
+      </properties>
+      <test-suite type="TestFixture" id="1001" name="TestScript" fullname="TestScript" classname="TestScript" runstate="Runnable" testcasecount="2" result="Passed" start-time="2020-01-17 11:42:12Z" end-time="2020-01-17 11:42:12Z" duration="0.090423" total="2" passed="2" failed="0" inconclusive="0" skipped="0" asserts="0">
+        <properties />
+        <test-case id="1002" name="Move_Left_On_X" fullname="TestScript.Move_Left_On_X" methodname="Move_Left_On_X" classname="TestScript" runstate="Runnable" seed="1448497029" result="Passed" start-time="2020-01-17 11:42:12Z" end-time="2020-01-17 11:42:12Z" duration="0.052712" asserts="0">
+          <properties>
+            <property name="_JOINTYPE" value="UnityCombinatorial" />
+          </properties>
+        </test-case>
+        <test-case id="1003" name="Move_Right_On_X" fullname="TestScript.Move_Right_On_X" methodname="Move_Right_On_X" classname="TestScript" runstate="Runnable" seed="428187706" result="Passed" start-time="2020-01-17 11:42:12Z" end-time="2020-01-17 11:42:12Z" duration="0.014885" asserts="0">
+          <properties>
+            <property name="_JOINTYPE" value="UnityCombinatorial" />
+          </properties>
+        </test-case>
+      </test-suite>
+    </test-suite>
+  </test-suite>
+</test-run>
