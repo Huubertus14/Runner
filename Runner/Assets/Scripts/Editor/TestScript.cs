@@ -7,7 +7,7 @@ using UnityEngine.TestTools;
 public class TestScript
 {
     [Test]
-    public static IEnumerator Move_Left_On_X()
+    public static void Move_Left_On_X()
     {
         var player = new GameObject().AddComponent<PlayerBehaviour>();
 
@@ -18,7 +18,7 @@ public class TestScript
 
         Vector3 _expectedGoalPos = new Vector3(_orginGoalPos.x - 4, _orginGoalPos.y, _orginGoalPos.z);
 
-        yield return null;
+        //yield return null;
 
         Assert.AreEqual(player.goalPos, _expectedGoalPos);
     }
@@ -26,7 +26,7 @@ public class TestScript
     //test
 
     [Test]
-    public static IEnumerator Move_Right_On_X()
+    public static void Move_Right_On_X()
     {
         var player = new GameObject().AddComponent<PlayerBehaviour>();
 
@@ -37,7 +37,7 @@ public class TestScript
 
         Vector3 _expectedGoalPos = new Vector3(_orginGoalPos.x + 4, _orginGoalPos.y, _orginGoalPos.z);
 
-        yield return null;
+       // yield return null;
 
         Assert.AreEqual(player.goalPos, _expectedGoalPos);
     }
