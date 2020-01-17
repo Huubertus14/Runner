@@ -6,7 +6,7 @@ using UnityEngine.TestTools;
 
 public class TestScript
 {
-    [UnityTest]
+    [Test]
     public static IEnumerator Move_Left_On_X()
     {
         var player = new GameObject().AddComponent<PlayerBehaviour>();
@@ -25,7 +25,7 @@ public class TestScript
 
 
 
-    [UnityTest]
+    [Test]
     public static IEnumerator Move_Right_On_X()
     {
         var player = new GameObject().AddComponent<PlayerBehaviour>();
